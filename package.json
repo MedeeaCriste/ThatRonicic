@@ -1,0 +1,19 @@
+{
+  "name": "proiectttt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/css/index.css -o ./public/out/out.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "firebase": "^9.22.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
